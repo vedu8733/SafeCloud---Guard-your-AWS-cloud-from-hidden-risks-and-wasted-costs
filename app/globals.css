@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased font-sans;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 8px 32px 0 rgba(124, 58, 237, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+/* Page background with subtle grid and vignette */
+.app-bg {
+  background-color: #0b0a12;
+  background-image:
+    radial-gradient(ellipse at 20% 10%, rgba(124,58,237,0.25), transparent 40%),
+    radial-gradient(ellipse at 80% 0%, rgba(192,132,252,0.15), transparent 35%),
+    linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0) 40%),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    24px 24px,
+    24px 24px;
+}

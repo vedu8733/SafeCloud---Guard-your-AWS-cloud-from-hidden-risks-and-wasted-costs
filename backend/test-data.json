@@ -1,0 +1,17 @@
+{
+  "test_data": {
+    "names": ["alice", "bob", "rohit", "priya", "amit", "neha", "ajay"],
+    "phone_numbers": ["8659656356", "8956458569"],
+    "aadhaar": "1234 5678 9012",
+    "credit_card": "4111 1111 1111 1111",
+    "bank_account": "987654321000",
+    "ifsc_code": "HDFC0001234",
+    "upi_id": "amit@ybl",
+    "email": "alice.j@company.com",
+    "aws_access_key": "AKIAIOSFODNN7EXAMPLE",
+    "aws_secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "password": "Password@123",
+    "db_connection": "mysql://root:SuperSecret123@10.0.0.5:3306/bankdb"
+  },
+  "description": "This is a test file with sensitive data patterns that should be detected by the scanner"
+}
