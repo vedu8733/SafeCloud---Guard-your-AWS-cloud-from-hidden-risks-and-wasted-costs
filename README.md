@@ -8,6 +8,33 @@ SafeCloud is a full‑stack app that scans AWS S3 for sensitive data patterns, h
 - Problem: Organizations store massive data in S3. Secrets, PII, and misconfigurations can slip in. Manual reviews are slow, expensive, and often missed.
 - Solution: SafeCloud connects securely to your AWS account, scans S3 objects for risky patterns (keys, tokens, PII), and summarizes findings with severity, compliance score, and potential savings. You get actionable insights and a downloadable report.
 
+## Output 
+
+## Screenshots
+
+<table>
+<tr>
+<td><img src="Screenshot 2025-09-01 133619.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 133630.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 133640.png" width="250"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot 2025-09-01 133815.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 133847.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 133920.png" width="250"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot 2025-09-01 133936.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 134025.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 134034.png" width="250"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot 2025-09-01 134041.png" width="250"/></td>
+<td><img src="Screenshot 2025-09-01 134055.png" width="250"/></td>
+</tr>
+</table>
+
+
 ## Core features
 - Secure AWS connect (Cognito + STS AssumeRole)
 - S3 scan for sensitive patterns (secrets, tokens, PII) with severity
